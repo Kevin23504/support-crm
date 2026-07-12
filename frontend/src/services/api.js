@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://support-crm-r1z2.onrender.com/api",
+  baseURL: "https://support-crm-1-pjhp.onrender.com/api",
 });
 
 export default API;

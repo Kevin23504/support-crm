@@ -10,7 +10,7 @@ A full-stack Customer Support CRM application built using **React, Node.js, Expr
 https://support-crm-frontend-kvjr.onrender.com
 
 ### Backend API
-https://support-crm-rr2.onrender.com
+https://support-crm-1-pjhp.onrender.com/api/tickets
 
 ---
 

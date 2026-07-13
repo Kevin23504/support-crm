@@ -1,108 +1,31 @@
-# 🎫 Customer Support CRM
+# Customer Support CRM
 
-A full-stack Customer Support CRM application built using **React, Node.js, Express, and SQLite**. The application allows users to create, manage, search, and update customer support tickets through a clean and responsive interface.
-
----
-
-## 🚀 Live Demo
-
-### Frontend
-https://support-crm-frontend-kvjr.onrender.com
-
-### Backend API
-https://support-crm-1-pjhp.onrender.com/api/tickets
-
----
-
-## 📸 Screenshots
-
-> Add screenshots of:
-- Dashboard
-- Create Ticket
-- Ticket Details
-- Search & Filter
-
----
-
-## ✨ Features
-
+## Features
 - Create support tickets
 - View all tickets
-- Search tickets by:
-  - Customer Name
-  - Email
-  - Subject
-  - Ticket ID
+- Search tickets
 - Filter tickets by status
 - Update ticket status
-- View complete ticket details
-- REST API integration
-- Responsive UI
-- Deployed on Render
+- View ticket details
 
----
-
-## 🛠 Tech Stack
-
-### Frontend
+## Tech Stack
 - React
-- Vite
-- Axios
-- CSS
-
-### Backend
 - Node.js
 - Express.js
 - SQLite
-- UUID
+- Axios
 
-### Deployment
-- Render
-- GitHub
+## Live Demo
 
----
+Frontend:
+https://support-crm-frontend-kvjr.onrender.com
 
-## 📂 Project Structure
+Backend API:
+https://support-crm-1-pjhp.onrender.com/api/tickets
 
-```
-support-crm
-│
-├── backend
-│   ├── controllers
-│   ├── routes
-│   ├── database
-│   ├── modules
-│   ├── index.js
-│   └── package.json
-│
-└── frontend
-    ├── src
-    │   ├── components
-    │   ├── services
-    │   ├── App.jsx
-    │   └── main.jsx
-    └── package.json
-```
+## Installation
 
----
-
-## ⚙️ Installation
-
-### Clone Repository
-
-```bash
-git clone https://github.com/Kevin23504/support-crm.git
-```
-
-Move into project
-
-```bash
-cd support-crm
-```
-
----
-
-### Backend Setup
+### Backend
 
 ```bash
 cd backend
@@ -110,65 +33,10 @@ npm install
 npm start
 ```
 
-Runs on
-
-```
-http://localhost:3000
-```
-
----
-
-### Frontend Setup
+### Frontend
 
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
-
-Runs on
-
-```
-http://localhost:5173
-```
-
----
-
-## 📡 API Endpoints
-
-| Method | Endpoint | Description |
-|---------|----------|-------------|
-| GET | /api/tickets | Get all tickets |
-| POST | /api/tickets | Create ticket |
-| PUT | /api/tickets/:id | Update status |
-| GET | /api/tickets/:id | Get ticket details |
-
----
-
-## 📈 Future Improvements
-
-- JWT Authentication
-- PostgreSQL Database
-- Admin Dashboard
-- User Roles
-- Email Notifications
-- File Attachments
-- Dark Mode
-
----
-
-## 👨‍💻 Author
-
-**Kevin Waghela**
-
-GitHub:
-https://github.com/Kevin23504
-
-LinkedIn:
-(Add your LinkedIn URL)
-
----
-
-## ⭐ If you like this project
-
-Give it a ⭐ on GitHub!
